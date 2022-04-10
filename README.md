@@ -96,7 +96,7 @@ a web application built with Laravel for managing different entities of a store,
 ### Print
 ![imprimer](https://user-images.githubusercontent.com/80859231/162628269-73036b0e-a5b9-4610-a24e-35606caa317d.png)
 
-## Wanna use it Locally ? Great , this is the installations instructions :
+## Wanna use it Locally ❤️ ? Great , this is the installation instructions ⏬ :
 ``` bash
 Create a database locally named homestead utf8_general_ci
 Download composer https://getcomposer.org/download/
