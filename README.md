@@ -98,7 +98,7 @@ a web application built with Laravel for managing different entities of a store,
 
 ## Wanna use it Locally ❤️ ? Great , this is the installation instructions ⏬ :
 ``` bash
-Create a database locally named homestead utf8_general_ci
+Create a mysql database locally named posdb utf8_general_ci
 Download composer https://getcomposer.org/download/
 Pull Laravel/php project from git provider.
 Rename .env.example file to .envinside your project root and fill the database information. (windows wont let you do it, so you have to open your console cd your project root directory and run mv .env.example .env )
