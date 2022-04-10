@@ -1,0 +1,39 @@
+/*----------------------------------------
+  Navbar In Components
+------------------------------------------*/
+
+.section.section-navbar{
+    nav{
+       .nav-wrapper{
+          font-size: 2.1rem;
+          .brand-logo.center,
+          .brand-logo.center-align{
+             position: absolute;
+             left: 45%;
+          }
+       }
+    }
+
+    #extended-navbar,
+    #mobile-collapse{
+      ul.sidenav#mobile-demo,
+      ul.sidenav#mobile-demo2{
+        top: 56px;
+        width: 350px;
+      }
+    }
+ }
+
+ @media screen and(max-width: 540px){
+   .section.section-navbar{
+      nav{
+         .nav-wrapper{
+            .brand-logo.center,
+            .brand-logo.center-align{
+               position: absolute;
+               left: 40%;
+            }
+         }
+      }
+   }
+ }

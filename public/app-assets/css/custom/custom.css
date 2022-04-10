@@ -1,0 +1,112 @@
+
+
+/*hide select in sweet alerts*/
+.swal2-container .select-wrapper{
+    display: none !important;
+}
+
+/*pagination*/
+.pagination{
+    display: flex;
+    justify-content: center;
+}
+
+.pagination li {
+    width: 2.5rem;
+    color: white;
+}
+
+/*used for row in table*/
+[data-href] {
+    cursor: pointer;
+}
+
+
+.table-row:hover{
+    background-color: #eeeeee;
+}
+
+
+/*pos page */
+/*adjust title font*/
+.product-title {
+    font-weight: 900 !important;
+    font-size: 1.2em;
+}
+
+.product-card {
+    border-radius: 1.3rem;
+}
+
+h2 span {
+    font-size: 2.5rem;
+}
+#product-search::placeholder {
+    color: #b1b1b1 !important;
+}
+
+.order-page-title {
+    color: black !important;
+}
+
+
+.panel {
+    background-color: white;
+    border-radius: 35px;
+    width: 100%;
+    height: 100vh;
+}
+
+.panel > span {
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.cardtitle_ {
+    font-size: 1.7rem;
+}
+
+.coloredbackground {
+    background-color: #f5f7fb;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 10px;
+    box-shadow: 0px 0px 6px 1px #ecebeb;
+    border-radius: 12px;
+    margin-top: 10px;
+}
+.itemtitle {
+    font-size: 1rem;
+    width: 5.2em;
+}
+.itemprice {
+    font-family: Roboto,sans-serif;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.quantity {
+    display: flex;
+    margin-top: -4px;
+    align-items: center;
+}
+
+.increasebyone {
+    cursor: pointer;
+    margin-top: 0.3em;
+}
+.decreasebyone {
+    cursor: pointer;
+}
+
+
+.count_and_show_arrow{
+    margin-top: 14px;
+    margin-bottom: 1.55em !important;
+}
+
+
